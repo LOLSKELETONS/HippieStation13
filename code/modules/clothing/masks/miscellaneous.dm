@@ -4,7 +4,7 @@
     desc = "Nobody cared who I was until I put on the mask."
     icon_state = "banemask"
     item_state = "banemask"
-    strip_delay = 60
+    strip_delay = 70
     ignore_maskadjust = 0
     flags =MASKINTERNALS
     flags_inv = HIDEFACE
