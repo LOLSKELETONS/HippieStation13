@@ -204,6 +204,7 @@ obj/item/projectile/kinetic/New()
 	damage = 5
 	range = 3
 
+
 /obj/item/projectile/plasma/New()
 	var/turf/proj_turf = get_turf(src)
 	if(!istype(proj_turf, /turf))
@@ -214,7 +215,11 @@ obj/item/projectile/kinetic/New()
 		if(pressure < 30)
 			name = "full strength plasma blast"
 			damage *= 3
+	sharpness = IS_SHARP_ACCURATE
+
+
 	..()
+
 
 /obj/item/projectile/plasma/on_hit(atom/target)
 	. = ..()

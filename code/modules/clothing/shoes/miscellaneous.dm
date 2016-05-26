@@ -5,7 +5,7 @@
     desc = "Speak of the devil and he shall appear."
     icon_state = "baneboots"
     item_state = "baneboots"
-    armor = list(melee = 10, bullet = 25, laser = 10)
+    armor = list(melee = 10, bullet = 25, laser = 10,bio = 10)
     strip_delay = 70
     burn_state = -1
 
